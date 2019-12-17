@@ -1,7 +1,8 @@
 spring:
   application:
     name: movies
-
+server:
+  port: 9596
 #eureka:
   #client:
    # service-url: http://localhost:8761
