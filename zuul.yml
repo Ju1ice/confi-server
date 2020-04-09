@@ -3,3 +3,6 @@ spring:
     name: zuul
 server:
   port: 8080
+zuul:
+  routes:
+    movies: http://localhost:8089
